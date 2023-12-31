@@ -1,6 +1,7 @@
 import Footer from "../common/footer";
 import Header from "../common/header";
 import { Button } from "../ui/button";
+import Experts from "./experts";
 import Partner from "./partner";
 import Services from "./services";
 import Hero from "./services";
@@ -46,6 +47,7 @@ export default function Banner() {
         <Services />
         <Work />
         <Partner />
+        <Experts />
       </main>
     </>
   );
