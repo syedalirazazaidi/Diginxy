@@ -24,7 +24,7 @@ export default function Form() {
                       placeholder="Email"
                       id="name"
                       name="name"
-                      className="w-full bg-gray-100 bg-opacity-50 rounded border border-red-400 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      className="w-full bg-gray-100 bg-opacity-50 rounded border border-red-400 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     />
                   </div>
                 </div>
@@ -35,7 +35,7 @@ export default function Form() {
                       placeholder="First Name"
                       id="email"
                       name="email"
-                      className="w-full bg-gray-100 bg-opacity-50 rounded border border-red-400 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      className="w-full bg-gray-100 bg-opacity-50 rounded border border-red-400 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     />
                   </div>
                 </div>
@@ -46,7 +46,7 @@ export default function Form() {
                       type="text"
                       id="name"
                       name="name"
-                      className="w-full bg-gray-100 bg-opacity-50 rounded border border-red-400 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      className="w-full bg-gray-100 bg-opacity-50 rounded border border-red-400 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     />
                   </div>
                 </div>
@@ -57,7 +57,7 @@ export default function Form() {
                       type="email"
                       id="email"
                       name="email"
-                      className="border-red-400 w-full bg-gray-100 bg-opacity-50 rounded border  focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      className="w-full bg-gray-100 bg-opacity-50 rounded border border-red-400 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     />
                   </div>
                 </div>
@@ -67,7 +67,7 @@ export default function Form() {
                       placeholder="Please describe your project"
                       id="message"
                       name="message"
-                      className="w-full border-red-400 bg-gray-100 bg-opacity-50 rounded border  focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                      className="w-full border-red-400 bg-gray-100 bg-opacity-50 rounded border  focus:border-red-500 focus:bg-red focus:ring-2 focus:ring-red-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                       defaultValue={""}
                     />
                   </div>
