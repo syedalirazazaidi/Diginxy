@@ -6,6 +6,7 @@ import Partner from "./partner";
 import Services from "./services";
 import Hero from "./services";
 import Team from "./team";
+import Digital from "./trend";
 import Work from "./work";
 
 export default function Banner() {
@@ -50,6 +51,7 @@ export default function Banner() {
         <Partner />
         <Experts />
         <Team />
+        <Digital />
       </main>
     </>
   );

@@ -12,13 +12,13 @@ export default function Team() {
     },
     {
       img: "https://diginsy.com/wp-content/uploads/2023/10/unnamed-3.jpg",
-      title: "Business Development Manager",
+      title: "Business Development ",
       name: "Andrew Foley",
       id: "02",
     },
     {
       img: "https://diginsy.com/wp-content/uploads/2023/10/unnamed-2.jpg",
-      title: "Business Development Manager",
+      title: "Business Development ",
       name: "Daniel Obenshain",
       id: "03",
     },
