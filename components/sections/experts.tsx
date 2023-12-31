@@ -19,7 +19,8 @@ export default function Experts() {
           <h1 className="text-[22px] font-[700] leading-[34px] text-[#FFFFFF] py-4 sm:text-3xl text-2xl  title-font mb-4 ">
             OUR EXPERTS HAVE WON TOP INDUSTRY AWARDS & ARE
           </h1>
-          <p className="text-[59px] font-[700] leading-[50px] text-[#FFFFFF] lg:w-2/3 mx-auto text-base">
+
+          <p className="text-[59px] font-[700] leading-[50px] text-[#FFFFFF] lg:w-2/3 mx-auto">
             Recognized Digital Agency Experts
           </p>
           <div className="flex mb-4 mt-8">

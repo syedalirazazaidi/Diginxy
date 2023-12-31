@@ -1,5 +1,6 @@
 import React from "react";
 import { Mail, MapPin, Phone } from "lucide-react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -50,7 +51,12 @@ export default function Footer() {
                 <a className="text-[#FFFFFF] hover:text-gray-800">Blog </a>
               </li>
               <li className="lg:w-1/3 mb-1 w-full md:w-1/2">
-                <a className="text-[#FFFFFF] hover:text-gray-800">Contact </a>
+                <Link
+                  className="text-[#FFFFFF] hover:text-gray-800"
+                  href="/contact"
+                >
+                  Contact
+                </Link>
               </li>
               <li className="lg:w-1/3 mb-1 w-full md:w-1/2">
                 <a className="text-[#FFFFFF] hover:text-gray-800">
