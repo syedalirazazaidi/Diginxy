@@ -1,7 +1,9 @@
+import Image from "next/image";
 import React from "react";
+import { Separator } from "@/components/ui/separator";
 
 export default function Team() {
-  const Team = [
+  const team = [
     {
       img: "https://diginsy.com/wp-content/uploads/2023/12/unnamed-84.png",
       title: "Chief Operations",
@@ -41,45 +43,29 @@ export default function Team() {
         <h1 className="text-[20px] tracking-widest">
           Our <span className="text-red-700">Team</span>
         </h1>
-        <div className="p-4 md:w-1/3">
-          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-            <img
-              className="lg:h-48 md:h-36 w-full object-cover object-center"
-              src="https://dummyimage.com/721x401"
-              alt="blog"
-            />
-            <div className="p-6">
-              <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                CATEGORY
-              </h2>
-              <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                The 400 Blows
-              </h1>
-              <p className="leading-relaxed mb-3">
-                Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
-                microdosing tousled waistcoat.
-              </p>
+        <Separator className="my-7 " />
+
+        <div className="grid md:grid-cols-4 gap-4 w-full mt-16">
+          {team.map(({ name, img, title }) => (
+            <div
+              className="max-w-sm  overflow-hidden shadow-lg rounded-lg"
+              key={name}
+            >
+              <Image
+                className="w-full"
+                src={img}
+                width={430}
+                height={200}
+                alt="Sunset in the mountains"
+              />
+              <div className="px-6 py-4">
+                <div className="font-bold text-xl text-[#042F41]">{name}</div>
+                <p className="text-gray-400 text-base font-normal leading-10 tracking-wider">
+                  {title}
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-            <img
-              className="lg:h-48 md:h-36 w-full object-cover object-center"
-              src="https://dummyimage.com/721x401"
-              alt="blog"
-            />
-            <div className="p-6">
-              <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                CATEGORY
-              </h2>
-              <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                The 400 Blows
-              </h1>
-              <p className="leading-relaxed mb-3">
-                Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
-                microdosing tousled waistcoat.
-              </p>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
