@@ -53,7 +53,7 @@ export default function Advertising() {
                 <Image
                   src="https://diginsy.com/wp-content/uploads/2023/12/public-2.png"
                   width={50}
-                  height={45}
+                  height={44}
                   alt=""
                 />
                 <h2 className="text-3xl sm:text-3xl text-white font-extrabold">
