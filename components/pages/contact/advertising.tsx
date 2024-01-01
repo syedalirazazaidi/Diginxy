@@ -11,27 +11,31 @@ export default function Advertising() {
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        height: "100vh",
+        minHeight: "100vh", // Adjusted height for responsiveness
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
         textAlign: "center",
         color: "#fff",
       }}
-      className="text-gray-600 body-font "
+      className="text-gray-600 body-font"
     >
       <section className="text-gray-600 body-font container mx-auto">
-        <div className="container mx-auto px-5">
-          <div className="flex flex-col container mx-4 md:mx-auto text-center w-full md:w-2/3 mb-20">
-            <h2 className="text-sm mt-40 md:text-3xl text-[#FFFFFF] md:tracking-widest font-medium mb-1">
+        <div className="md:container md:mx-auto md:px-4">
+          <div className="flex flex-col container  md:mx-auto text-center w-full md:w-2/3 mb-10 md:mb-20">
+            {/* <h2 className="text-base md:text-3xl text-[#FFFFFF] tracking-widest font-medium md:mb-1 md:mt-40">
+              AMERICA’S #1 INTERNET MARKETING COMPANY DIGITAL MARKETING
+            </h2> */}
+            <h2 className="text-base md:text-3xl text-[#FFFFFF] tracking-widest font-medium mb-1 mt-12 md:mt-40">
               AMERICA’S #1 INTERNET MARKETING COMPANY DIGITAL MARKETING
             </h2>
-            <h1 className="md:text-3xl  font-medium title-font md:mb-4 text-[#FFFFFF]">
+
+            <h1 className="md:text-3xl font-medium title-font md:mb-4 text-[#FFFFFF]">
               AGENCY THAT MAXIMIZES SALES & PROFITABILITY
             </h1>
           </div>
           <div className="flex flex-col md:flex-row flex-wrap items-center justify-center">
-            <div className="w-full md:w-1/2 lg:w-1/4 px-8  border-gray-200 border-opacity-60">
+            <div className="w-full md:w-1/2 lg:w-1/4 px-8 border-gray-200 border-opacity-60 mb-4 md:mb-0">
               <div className="flex items-center justify-center gap-4 mb-2">
                 <Image
                   src="https://diginsy.com/wp-content/uploads/2023/12/public-3.png"
@@ -48,7 +52,7 @@ export default function Advertising() {
               </p>
             </div>
 
-            <div className="w-full md:w-1/2 lg:w-1/4 px-8 md:border-l border-gray-200 border-opacity-60">
+            <div className="w-full md:w-1/2 lg:w-1/4 px-8 md:border-l border-gray-200 border-opacity-60 mb-4 md:mb-0">
               <div className="flex items-center justify-center gap-4">
                 <Image
                   src="https://diginsy.com/wp-content/uploads/2023/12/public-2.png"
@@ -65,7 +69,7 @@ export default function Advertising() {
               </p>
             </div>
 
-            <div className="w-full md:w-1/2 lg:w-1/4 px-8 md:border-l border-gray-200 border-opacity-60">
+            <div className="w-full md:w-1/2 lg:w-1/4 px-8 md:border-l border-gray-200 border-opacity-60 mb-4 md:mb-0">
               <div className="flex gap-4 justify-center items-center text-center">
                 <Image
                   src="https://diginsy.com/wp-content/uploads/2023/12/public-1.png"
