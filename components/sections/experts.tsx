@@ -20,7 +20,7 @@ export default function Experts() {
             OUR EXPERTS HAVE WON TOP INDUSTRY AWARDS & ARE
           </h1>
 
-          <p className="text-[59px] font-[700] leading-[50px] text-[#FFFFFF] lg:w-2/3 mx-auto">
+          <p className="text-[30px] md:text-[59px] font-[700] leading-[50px] text-[#FFFFFF] lg:w-2/3 mx-auto">
             Recognized Digital Agency Experts
           </p>
           <div className="flex mb-4 mt-8">

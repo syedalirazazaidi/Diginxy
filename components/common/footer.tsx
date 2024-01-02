@@ -34,8 +34,8 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="flex bg-[#363636] items-center justify-left">
-        <div className="flex flex-col justify-center text-center py-10">
+      <div className="flex bg-[#363636] items-center  justify-left">
+        <div className="flex flex-col ml-4 justify-center text-center py-10">
           <div className="flex flex-col md:w-1/2 md:pl-12 text-left">
             <h2 className="title-font text-[#FFFFFF] text-[20px] font-extrabold tracking-wider text-sm mb-3">
               Sitemap

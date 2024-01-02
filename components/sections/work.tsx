@@ -6,7 +6,7 @@ export default function Work() {
     {
       img: "https://diginsy.com/wp-content/uploads/2023/06/Group-14085-min.png",
 
-      desription:
+      description:
         "We created an ecommerce website for California Pizza Kitchen that helped them generate orders…",
       title: "Learn More",
       id: "01",
@@ -14,21 +14,21 @@ export default function Work() {
     {
       img: "https://diginsy.com/wp-content/uploads/2023/06/Group-14085-min.png",
 
-      desription:
+      description:
         "For BJ’s Restaurant Brewhouse, we created an ecommerce website that focused on fetching orders…",
       title: "Learn More",
       id: "02",
     },
     {
       img: "https://diginsy.com/wp-content/uploads/2023/06/Group-14085-min.png",
-      desription:
+      description:
         "We developed a UI/UX Design for Typhoon Texas and effectively conducted social media and SEO campaigns",
       title: "Learn More",
       id: "03",
     },
     {
       img: "https://diginsy.com/wp-content/uploads/2023/06/Group-14085-min.png",
-      desription:
+      description:
         "We developed a UI/UX Design for Typhoon Texas and effectively conducted social media and SEO campaigns",
       title: "Learn More",
       id: "04",
@@ -56,18 +56,18 @@ export default function Work() {
           We’ve Done Lot’s Of Work, Let’s Check Some From Here
         </p>
         <div className="flex flex-wrap">
-          {work.map(({ img, desription, title }) => (
-            <div key={desription} className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="p-6 rounded-lg">
+          {work.map(({ img, description, title }) => (
+            <div key={description} className="xl:w-1/3 md:w-1/2 p-4">
+              <div className="p-4 rounded-lg">
                 <Image
                   src={img}
-                  width={380}
-                  height={190}
+                  width={350}
+                  height={170}
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   alt="Digincy"
                 />
                 <p className="leading-relaxed text-base text-white">
-                  {desription}
+                  {description}
                 </p>
                 <div className="flex items-center text-center gap-10">
                   <h1 className="text-[#FFFFFF] text-[14px]">{title}</h1>

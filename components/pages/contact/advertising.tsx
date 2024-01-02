@@ -23,10 +23,7 @@ export default function Advertising() {
       <section className="text-gray-600 body-font container mx-auto">
         <div className="md:container md:mx-auto md:px-4">
           <div className="flex flex-col container  md:mx-auto text-center w-full md:w-2/3 mb-10 md:mb-20">
-            {/* <h2 className="text-base md:text-3xl text-[#FFFFFF] tracking-widest font-medium md:mb-1 md:mt-40">
-              AMERICA’S #1 INTERNET MARKETING COMPANY DIGITAL MARKETING
-            </h2> */}
-            <h2 className="text-base md:text-3xl text-[#FFFFFF] tracking-widest font-medium mb-1 mt-12 md:mt-40">
+            <h2 className="text-base md:text-3xl text-[#FFFFFF] tracking-widest font-medium mb-1 mt-16 md:mt-40">
               AMERICA’S #1 INTERNET MARKETING COMPANY DIGITAL MARKETING
             </h2>
 
